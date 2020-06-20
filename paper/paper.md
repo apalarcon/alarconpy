@@ -20,10 +20,9 @@ authors:
 affiliations:
  - name: Department  of Meteorology, Higher Institute of Technologies and Applied Sciences, University of Havana
    index: 1
-
 date: 19 June 2020
 bibliography: paper.bib
-
+---
 # Summary
 In atmospheric science, researchers generally must process a large volume of data obtained from the network of meteorological observations on a local and global scale, as well as from the output of numerical weather forecast models. This data collection is stored in netCDF (Network Common Data Form) and GRIB (GRIdded Binary or General Regularly-distributed Information in Binary form, @WMO2003) format. GRIB is a concise data format commonly used in meteorology to store forecast and historical meteorological data. It is standardized by the Commission for Basic Systems of the World Meteorological Organization (WMO).
 
