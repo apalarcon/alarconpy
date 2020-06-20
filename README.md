@@ -16,10 +16,13 @@ It also contains in a same function the facilities of other Python packages bene
 </tr>
 </thead>
 <tbody>
-
+<tr>
+<td>Python2</td>
+<td> no tested</td>
+</tr>
 <tr>
 <td>Python3</td>
-<td><a href="https://pyup.io/repos/github/UShan89/DoSOCSv2/" rel="nofollow"><img src="https://camo.githubusercontent.com/b888069a7c6c3a98f3460b0b2fc356789021274e/68747470733a2f2f707975702e696f2f7265706f732f6769746875622f555368616e38392f446f534f435376322f707974686f6e2d332d736869656c642e737667" alt="Python 3" data-canonical-src="" style="max-width:100%;"></a></td>
+<td> tested</td>
 </tr>
 </tbody>
 </table>
