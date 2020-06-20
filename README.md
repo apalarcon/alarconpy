@@ -23,6 +23,7 @@ Alarconpy is developed for Python 3.x and there are some python libraries requir
 
 # Alarconpy examples
 <b>Plotting maps</b>
+
 Figure shows the use of the Alarconpy to create a geographic map with Cartopy. As can be seen in
 practically one line of code (without count the lines to import required packages), a geographic map was
 created, while making this same map using directly Cartopy package it is required at least of 10 lines of
@@ -32,6 +33,7 @@ code.
 The <b>get_map(arguments*)</b> function contains the possibility to use new backgrounds for the maps, as shown in the Figure 2 on the bottom map, where the Blue Marble (https://neo.sci.gsfc.nasa.govview.php?datasetId=BlueMarbleNG-TB) background was used. It also allows to change the resolution of the map background, the font size and the interval to draw the parallels and meridians.
 
 <b> Operations with time</b>
+
 Many meteorological data files contain the date in Unix Time format (number of seconds elapsed since
 the start of the Unix epoch at 1 January 1970 00:00:00 UTC). The Alarconpy package provides a
 function to convert the date in Unix Time to Julian date. The following code shows the use of the
@@ -49,6 +51,7 @@ Out[3] al.time_dif("20200610000000","20200612000000")
 Out[3]: 48
 ```
 <b>Interpolation methods</b>
+
 As mentioned above, Alarconpy includes the Scipy and Metpy interpolation methods in the same function, which facilitates the implementation of any of them easily and quickly. Available interpolation methods are  "linear", "nearest", "cubic" and "rbf" from Scipy and  "natural_neighbor","barnes" and "cressman" from  Metpy. Below is an example of the use of some of them.
 ```
 import alarconpy as al
@@ -92,6 +95,7 @@ Out[8]: array([26.37522029])
 ```
  
 <b>Units conversion</b>
+
 This python package presented in this article includes a function that allows unit conversion. Supports conversion of units, among others, in acceleration, angle, area, moment of inertia, density, length, mass, temperature and velocity. Below is shown an example:
 ```
 import alarconpy as al
@@ -107,11 +111,13 @@ Out[4]: 26.850000000000023
 ```
 
 <b> Color palettes</b>
+
 Alarconpy includes several color palettes for representing different meteorological variables. Figure shows an example of their use. The color palettes developed in Alarconpy are in agreement with the color palettes used for plotting the corresponding meteorological variables at the Cuban Institute of Meteorology. 
 
 ![Screenshot](img/fig02.png)
 
 <b> Tropical cyclones modules</b>
+
 The radial wind profiles of tropical cyclones are a powerful tool for describing the radial wind structure of
 these storms. Alarconpy incorporates a module with the implementation of several radial wind profiles:
 Holland (1980), DeMaria (1987), Emanuel (2004), Willoughby et al. (2006), Emanuel and Rotunno
@@ -145,7 +151,7 @@ al.haversine((lat1,lon1),(lat2,lon2),units='km')
 Out[7]: 919.627811821197
 ```
 
-# Text files
+<b>Text files</b>
 
 One of the most important aspects of Alarconpy is the incorporation of the  <b>index_row(arguments*)</b> function, which allows  to quickly determine the indexes in which a certain character string is found in a list of string. The code presented below shows the use of this function to determine the position of Hurricane Irma (AL112017) entries  in the HURDAT2 database of the National Hurricane Center (NHC). The HURDAT2 database have a text format with contain information every six hours about the location, maximum winds, minimum central pressure of all known tropical and subtropical cyclones.
 
@@ -168,6 +174,7 @@ Out[9]: 'AL112017,       IRMA,     66,\n'
 ```
 
 <b> Plotting of meteorological variables</b>
+
 Finally, Alarconpy has several functions for plotting some meteorological variables. These functions were  developed to plot the outputs of the Numerical Tools for Weather Forecast system (NTWF) and the Numerical Tools for Hurricane Forecast  system (NTHF), which are based on the NMM (Nonhydrostatic Mesoscale Model)) dynamic core of the WRF (Weather Research and Forecasting) model. Both were developed in the Department of Meteorology of the  Higher of Tecnologies and Applied Sciences,  University of Havana.  NTWF and NTHF outputs are available at https://www.instec.cu/model/models.php. Figure  shows an example of the use of this plotting functions.  
 
 ![Screenshot](img/fig05.png)
