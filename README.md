@@ -58,6 +58,7 @@ Please check that you have installed all  dependencies nedeed for Alarconpy.
 
 # Contact
 Albenis Pérez Alarcón: apalarcon1991_gmail.com
+
 José Carlos Fernández Alvarez: fortunajcfa_gmail.com
 
 # Alarconpy examples
