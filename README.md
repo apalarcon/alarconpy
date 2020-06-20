@@ -177,21 +177,21 @@ The Alarconpy's plotting functions could  be used to plot the outputs of any num
 # References
 - Chavas, D. R., Lin, N., and Emanuel, K. A. (2015). A model for the complete radial structure of the
 tropical cyclone wind field. part i: Comparison with observed structure. Journal of the Atmospheric
-Sciences, 72:3647–3662.
+Sciences, 72:3647–3662. https://doi.org/110.1175/JAS-D-15-0014.1
 - DeMaria, M. (1987). Tropical cyclone track prediction with a barotropic spectral model. Monthly Weather
-Review, 115:2346–2357.
+Review, 115:2346–2357. https://doi/org/10.1175/1520-0493(1987)115,2346:TCTPWA.2.0.CO;2
 - Emanuel, K. and Rotunno, R. (2011). Self-stratification of tropical cyclone outflow. Part I: Implications
-for storm structure. Journal of the Atmospheric Sciences, 68:82236–2249.
+for storm structure. Journal of the Atmospheric Sciences, 68:82236–2249. https://doi.org/10.1175/JAS-D-10-05024.1
 - Emanuel, K. A. (2004). Tropical cyclones energetics and structure. Atmospheric Turbulence and
 Mesoscale Meteorology. E. Fedorovich,R. Rotunno, and B. Stevens, Eds., Cambridge University Press,
 page 165–192.
 - Frisius, T. and Scgönemann, D. (2013). The impact of gradient wind imbalance on potential intensity of
 tropical cyclones in an unbalanced slab boundary layer model. Journal of the Atmospheric Sciences,
-70:1874–1890.
+70:1874–1890. https://doi.org/10.1175/JAS-D-12-0160.1
 - Holland, G. J. (1980). An analytic model of the wind and pressure profiles in hurricanes. Monthly Weather
 Review, 1008:1212–1218.
 - Willoughby, H. E., Darling, R. W. R., and Rahn, M. (2006). Parametric representation of the primary
 hurricane vortex. Part II: A new family of sectionally continuous profiles. Monthly Weather Review,
-134:1102–1120.
+134:1102–1120. https://doi.org/10.1175/MWR3106.1
 
 
