@@ -9,7 +9,7 @@ Alarconpy is developed for Python 3.x and there are some python libraries requir
 
 - Metpy: It is a modern meteorological open-source toolkit for Python. It is a maintained project of Unidata  to serve the academic meteorological community. MetPy consists of three major areas of functionality: Plots, Calculations and File Input/Output (https://unidata.github.io/MetPy/latest/index.html)
 
--Cartopy: It is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses. It makes use of the powerful PROJ.4, NumPy and Shapely libraries and includes a programmatic interface built on top of Matplotlib for the creation of publication quality maps.
+- Cartopy: It is a Python package designed for geospatial data processing in order to produce maps and other geospatial data analyses. It makes use of the powerful PROJ.4, NumPy and Shapely libraries and includes a programmatic interface built on top of Matplotlib for the creation of publication quality maps.
 
 - Scipy: It is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numerical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.
 
