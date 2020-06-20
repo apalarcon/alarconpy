@@ -17,7 +17,7 @@ Alarconpy is developed for Python 3.x and there are some python libraries requir
 
 - NetCDF4: It is the Python interface to the netCDF C library. This module can read and write files in both the new netCDF 4 and the old netCDF 3 format, and can create files that are readable by HDF5 clients (https://unidata.github.io/netcdf4-python/netCDF4/index.html).
 
-- Matplotlib: It is a plotting library for the Python programming language and its numerical mathematics extension NumPy  (https://matplotlib.org). Also, it is a sophisticated library capable of producing publication-quality graphics in a variety of formats, and with full LaTeX support \citep{Barrett2004}.
+- Matplotlib: It is a plotting library for the Python programming language and its numerical mathematics extension NumPy  (https://matplotlib.org). Also, it is a sophisticated library capable of producing publication-quality graphics in a variety of formats, and with full LaTeX support.
 
 - Time: This module provides various time-related functions (https://docs.python.org/3/library/time.html.
 
