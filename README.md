@@ -27,6 +27,7 @@ practically one line of code (without count the lines to import required package
 created, while making this same map using directly Cartopy package it is required at least of 10 lines of
 code.
 ![Screenshot](img/fig01.png)
+
 The get map(arguments*) function contains the possibility to use new backgrounds for the maps, as shown in the Figure 2 on the bottom map, where the Blue Marble (https://neo.sci.gsfc.nasa.govview.php?datasetId=BlueMarbleNG-TB) background was used. It also allows to change the resolution of the map background, the font size and the interval to draw the parallels and meridians.
 
 # Operations with time
@@ -106,6 +107,7 @@ Out[4]: 26.850000000000023
 
 # Color palettes
 Alarconpy includes several color palettes for representing different meteorological variables. Figure shows an example of their use. The color palettes developed in Alarconpy are in agreement with the color palettes used for plotting the corresponding meteorological variables at the Cuban Institute of Meteorology. 
+
 ![Screenshot](img/fig02.png)
 
 # Tropical cyclones modules
@@ -115,12 +117,15 @@ Holland (1980), DeMaria (1987), Emanuel (2004), Willoughby et al. (2006), Emanue
 (2011), Frisius and Scgönemann (2013) and Chavas et al. (2015). Figure  shows an example of using the
 profiles module to obtain the TC radial wind structure from Holland (1980) and Emanuel and Rotunno
 (2011) radial wind profiles.
+
 ![Screenshot](img/fig03.png)
+
 For the study of the risk associated with the impact of TCs on a certain geographic area, it is
 important to make a mask of the area occupied by the TC that allows it to be distinguished from the
 environment undisturbed by cyclonic circulation. Therefore, the function create TCmask(arguments*)
 was incorporated into Alarconpy package, which allows to be performed quickly this mask, as shown in the following 
 figure.
+
 ![Screenshot](img/fig04.png)
 
 In several occasions, in order to provide an evaluation of the TCs track forecast, it is necessary to calculate the distance between two geographic locations. The python package presented in this article includes the implementation of the Haversine function for calculating the distance between two geographic coordinates. The code segment below shows the simplicity of its use. 
@@ -163,5 +168,7 @@ Out[9]: 'AL112017,       IRMA,     66,\n'
 
 # Plotting of meteorological variables
 Finally, Alarconpy has several functions for plotting some meteorological variables. These functions were  developed to plot the outputs of the Numerical Tools for Weather Forecast system (NTWF) and the Numerical Tools for Hurricane Forecast  system (NTHF), which are based on the NMM (Nonhydrostatic Mesoscale Model)) dynamic core of the WRF (Weather Research and Forecasting) model. Both were developed in the Department of Meteorology of the  Higher of Tecnologies and Applied Sciences,  University of Havana.  NTWF and NTHF outputs are available at https://www.instec.cu/model/models.php. Figure  shows an example of the use of this plotting functions.  
+
 ![Screenshot](img/fig05.png)
+
 The Alarconpy's plotting functions could  be used to plot the outputs of any numerical weather forecast model or  any  meteorological data matrix which contains information of some meteorological variable included in this package.
