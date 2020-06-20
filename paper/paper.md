@@ -37,7 +37,7 @@ Alarconpy is a set of tools developed in Python  for the processing of meteorolo
 
 # Acknowledgements
 
-Many thanks to Roberto Carlos Cruz Rodrı́guez for all knowledge transmitted on the use of the Python
+Many thanks to Roberto Carlos Cruz Rodríguez for all knowledge transmitted on the use of the Python
 programming language.
 
 
