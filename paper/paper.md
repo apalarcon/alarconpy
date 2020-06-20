@@ -1,6 +1,5 @@
 ---
-title: 'Alarconpy: a Python Package for Meteorologists
-'
+title: 'Alarconpy: a Python Package for Meteorologists'
 tags:
   - Python
   - meteorology
@@ -12,7 +11,7 @@ tags:
   - python packages
   - development software
 authors:
-  - name: Albenis Pérez-Alarcón^[Custom footnotes for e.g. denoting who the corresspoinding author is can be included like this.]
+  - name: Albenis Pérez-Alarcón^*
     orcid: 0000-0002-9454-2331
     affiliation: "1" 
   - name: José Carlos Fernández-Alvarez
