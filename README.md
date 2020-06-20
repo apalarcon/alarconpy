@@ -21,6 +21,6 @@ Alarconpy is developed for Python 3.x and there are some python libraries requir
 
 - Time: This module provides various time-related functions (https://docs.python.org/3/library/time.html.
 
-![Screenshot](img/fig00.pdf)
+![Screenshot](img/fig01.png)
 
  
