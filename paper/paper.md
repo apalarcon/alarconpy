@@ -11,7 +11,7 @@ tags:
   - python packages
   - development software
 authors:
-  - name: Albenis Pérez-Alarcón^*
+  - name: Albenis Pérez-Alarcón*
     orcid: 0000-0002-9454-2331
     affiliation: "1" 
   - name: José Carlos Fernández-Alvarez
