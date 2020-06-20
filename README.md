@@ -21,6 +21,19 @@ Alarconpy is developed for Python 3.x and there are some python libraries requir
 
 - Time: This module provides various time-related functions (https://docs.python.org/3/library/time.html.
 
+
+# Installation
+We recommend using the Alarconpy package in the Anaconda environment. Just clone the Alarconpy repository 
+```
+git clone  https://github.com/apalarcon/alarconpy.git
+
+```
+and copy the alarconpy folder into anaconda installation
+```
+path_to_anaconda_installation/lib/python3.x/site-packages/
+```
+Please check that you have installed all the  dependencies nedeed for Alarconpy.
+
 # Alarconpy examples
 <b>Plotting maps</b>
 
