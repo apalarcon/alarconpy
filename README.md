@@ -56,6 +56,10 @@ path_to_anaconda_installation/lib/python3.x/site-packages/
 ```
 Please check that you have installed all  dependencies nedeed for Alarconpy.
 
+# Contact
+Albenis Pérez Alarcón: apalarcon1991_gmail.com
+José Carlos Fernández Alvarez: fortunajcfa_gmail.com
+
 # Alarconpy examples
 <b>Plotting maps</b>
 
