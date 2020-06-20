@@ -15,7 +15,7 @@ authors:
     orcid: 0000-0002-9454-2331
     affiliation: "1" 
   - name: José Carlos Fernández-Alvarez
-	orcid: 0000-0003-3409-6138
+    orcid: 0000-0003-3409-6138
     affiliation: "1"
 affiliations:
  - name: Department  of Meteorology, Higher Institute of Technologies and Applied Sciences, University of Havana
