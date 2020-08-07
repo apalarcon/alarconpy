@@ -964,7 +964,7 @@ def plot_RV(fig,lon,lat,rv,dom="d01",rvmin=-3,rvmax=3,rvinterval=0.000001,rvunit
 	return
 
 
-def plot_temperature(fig,lon,lat,T,dom="d01",li=range(0, 38, 1),Tunits="C",level="superficie"):
+def plot_temperature_h(fig,lon,lat,T,dom="d01",li=range(0, 38, 1),Tunits="C",level="superficie"):
 	"""Plot temperature field
 
 	Author: Albenis Pérez Alarcón
