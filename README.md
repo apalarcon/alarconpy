@@ -51,7 +51,7 @@ We recommend using the Alarconpy package in the Anaconda environment. Just clone
 git clone  https://github.com/apalarcon/alarconpy.git
 
 ```
-and copy the alarconpy folder into anaconda installation
+and copy the alarconpy folder into alarconpy (cloned folder) to anaconda installation
 ```
 path_to_anaconda_installation/lib/python3.x/site-packages/
 ```
