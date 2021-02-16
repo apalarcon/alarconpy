@@ -1,6 +1,5 @@
 # Alarconpy: A Python Package for Meteorologists
 
-[![DOI](https://joss.theoj.org/papers/10.21105/joss.02479/status.svg)](https://doi.org/10.21105/joss.02479)
 
 
 Alarconpy  v1.0.3 includes, among other, functions for calculating some atmospheric variables such as saturation vapor pressure and relative humidity, units converting, maps creation, predefined color palettes for plotting meteorological variables and some tropical cyclones applications such as radial wind profiles.
