@@ -20,6 +20,7 @@ from .create_map import get_map, get_map_all
 from .convert_units import *
 from .statistics import *
 from ._citing import get_cite
+from ._logo import *
 from .met_functions import *
 # Must occur before below imports
 warnings.filterwarnings('ignore', 'numpy.dtype size changed')
