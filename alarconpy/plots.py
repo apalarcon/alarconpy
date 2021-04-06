@@ -14,7 +14,7 @@ from metpy.plots import add_metpy_logo, Hodograph, SkewT
 from metpy.interpolate import interpolate_to_grid, remove_nan_observations
 import matplotlib.gridspec as gridspec
 import metpy.calc as mpcalc
-
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 
 def extrema(mat,mode='wrap',window=10):
