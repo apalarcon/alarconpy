@@ -658,6 +658,6 @@ def geo_submatrix(lat,lon,var,lat_min,lat_max,lon_min,lon_max):
 
 	nlon=lon[l1&l2].reshape(r,c)
 	nlat=lat[l1&l2].reshape(r,c)
-	nvar=nvar[l1&l2].reshape(r,c)
+	nvar=var[l1&l2].reshape(r,c)
 	
 	return nlat,nlon,nvar
