@@ -610,3 +610,54 @@ def vertical_cut(lat_storm=None,lon_storm=None,lat=np.array([None]),lon=np.array
 		raise ValueError("cut_type must be 'zonal' or 'meridional'")
 	
 	return new_var,new_cor
+
+def geo_submatrix(lat,lon,var,lat_min,lat_max,lon_min,lon_max):
+	"""
+	Author: Albenis Pérez Alarcón
+	
+	This function make a submatrix
+	
+	lat: numpy array (N,M)
+	array of latitudes
+	
+	lon: numpy array (N,M)
+	array of longitudes
+	
+	var: numpy array (N,M)
+	array to extract submatrix
+	
+	lat_min and lat_max: float
+	min and max latitude to make the submatrix
+	
+	lon_min and lon_max: float
+	min and max longitude to make the submatrix
+	
+		
+	--------------
+	Return 
+	
+	nvar: variable submatrix
+	nlat and nlon: geographic coordinates submatrix
+	"""
+	
+	l1=(lat>=lat_min)&(lat<=lat_max)
+	l2=(lon>=lon_min)&(lon<=lon_max)
+
+	m=l1&l2
+
+	r,c=0,0
+
+	for l in range(m.shape[0]):
+		if m[l,:].sum():
+			c=m[l,:].sum()
+			break
+	for l in range(m.shape[1]):
+		if m[:,l].sum():
+			r=m[:,l].sum()
+			break
+
+	nlon=lon[l1&l2].reshape(r,c)
+	nlat=lat[l1&l2].reshape(r,c)
+	nvar=nvar[l1&l2].reshape(r,c)
+	
+	return nlat,nlon,nvar
