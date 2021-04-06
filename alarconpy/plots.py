@@ -1504,4 +1504,40 @@ def plot_gramet(x_cord=np.array([None]),y_cord=np.array([None]),
 	
 	return
 
+def imscatter(x, y, image, ax=None, zoom=1):
+	"""
+	Customize marker from image
+	
+	Author: Albenis Pérez Alarcón
+	contact:apalarcon1991@gmail.com
+	
+	Parameters
+	-------------------------------------
+	x: x-direction coordinates
+	y: y-direction coordinates
+	image: path to image
+	zoom: image scale to plot
+	
+	retunr
+	a fig marker
+	"""
+	
+	
+	
+	if ax is None:
+		ax = plt.gca()
+	try:
+		image = plt.imread(image)
+	except TypeError:
+		# Likely already an array...
+		pass
+	im = OffsetImage(image, zoom=zoom)
+	x, y = np.atleast_1d(x, y)
+	artists = []
+	for x0, y0 in zip(x, y):
+		ab = AnnotationBbox(im, (x0, y0), xycoords='data', frameon=False)
+		artists.append(ax.add_artist(ab))
+	ax.update_datalim(np.column_stack([x, y]))
+	#ax.autoscale()
+	return artists
 
