@@ -2,10 +2,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4493257.svg)](https://doi.org/10.5281/zenodo.4493257)
 
-<b>Note</b>: If you use Alarconpy in a research article, please cite as: Pérez-Alarcón, A. and Fernández-Alvarez, J.C. (2021). Alarconpy: A Python Package for Meteorologists (Version 1.0.3). Zenodo. doi: 10.5281/zenodo.4493258 </br>
+<b>Note</b>: If you use Alarconpy in a research article, please cite as: Pérez-Alarcón, A. and Fernández-Alvarez, J.C. (2021). Alarconpy: A Python Package for Meteorologists (Version 1.0.4). Zenodo. doi: 10.5281/zenodo.4493257 </br>
 ..............................................................................
 
-Alarconpy  v1.0.3 includes, among other, functions for calculating some atmospheric variables such as saturation vapor pressure and relative humidity, units converting, maps creation, predefined color palettes for plotting meteorological variables and some tropical cyclones applications such as radial wind profiles.
+Alarconpy  v1.0.4 includes, among other, functions for calculating some atmospheric variables such as saturation vapor pressure and relative humidity, units converting, maps creation, predefined color palettes for plotting meteorological variables and some tropical cyclones applications such as radial wind profiles.
 It also contains in a same function the facilities of other Python packages benefiting existing and future users.
 
 # Alarconpy requirements
