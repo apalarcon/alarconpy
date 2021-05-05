@@ -50,7 +50,12 @@ Alarconpy is developed for Python 3.x and there are some python libraries requir
 
 
 # Installation
+
 We recommend using the Alarconpy package in the Anaconda environment. Just clone the Alarconpy repository 
+
+You can use conda install -c apa_py alarconpy
+
+or
 ```
 git clone  https://github.com/apalarcon/alarconpy.git
 
